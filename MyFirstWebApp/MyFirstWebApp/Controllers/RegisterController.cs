@@ -5,10 +5,12 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace MyFirstWebApp.Controllers
-{
-    public class SignupController : Controller
+{   
+    public class RegisterController : Controller
     {
+        
         // GET: Signup
+       
         public ActionResult Registration()
         {
             return View();

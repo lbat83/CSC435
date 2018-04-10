@@ -16,7 +16,7 @@ namespace MyFirstWebApp
             routes.MapRoute(
                 name: "Custom",
                 url: "{controller}/{action}",
-                defaults: new { controller = "Signup", action = "Registration"}
+                defaults: new { controller = "Register", action = "Registration"}
             );
 
             routes.MapRoute(
